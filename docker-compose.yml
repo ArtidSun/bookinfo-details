@@ -1,0 +1,6 @@
+services:
+  ratings:
+    build: .
+    image: ghcr.io/artidsun/bookinfo-details:master
+    ports:
+      - "8080:8080"
